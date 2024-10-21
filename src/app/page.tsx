@@ -71,7 +71,7 @@ export default function Home() {
 
         <div className="col-start-1 sm:col-start-2 sm:col-span-2">
           <p>Si lo prefieres, descarga tus XML desde el navegador interno del programa, solo busca los CFDI
-            del periodo que desees descargar, y presiona el botón de "Descargar" que se encuentra en
+            del periodo que desees descargar, y presiona el botón de &quot;Descargar&quot; que se encuentra en
             la parte inferior derecha.</p>
           <Image className="mt-3" height={1368} width={2560} src={resumenDescarga} alt="Captura de pantalla del resumen de descarga" ></Image>
         </div>
@@ -84,9 +84,9 @@ export default function Home() {
 
         <div className="col-start-1 sm:col-start-2 sm:col-span-2">
           <p>Crea la representación impresa de tus CFDI en PDF. Por defecto, los XML se descargan en la carpeta
-            "Descarga de CFDI" en tu escritorio.
+            &quot;Descarga de CFDI&quot; en tu escritorio.
             Para crear los PDF, solo selecciona la carpeta de los XML del periodo que hayas descargado
-            y presiona "Generar".</p>
+            y presiona &quot;Generar&quot;.</p>
           <Image className="mt-3" height={1368} width={2560} src={representacionImpresa} alt="Captura de pantalla de la Representacion Impresa" ></Image>
         </div>
 
