@@ -29,7 +29,7 @@ export default function Home() {
             para el control de tu facturación e impuestos
           </h2>
           <Link
-            href="https://drive.google.com/file/d/1X6PWqAPcB8jrJ6ULKz3FIn2Zspnh1oZT/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/1lTDcWeaWyu2FGJ9QaUFUca9GgynNy63h?usp=sharing"
             className="max-sm:hidden mt-16 text-white bg-gradient-to-r
             from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br
             focus:ring-4 focus:outline-none focus:ring-blue-300
