@@ -80,13 +80,15 @@ export default function Home() {
                   Autocompletado con Alt + flechas y Ctrl + Enter. Importa usuarios de manera masiva con Excel.
                 </p>
               </div>
-              <Image
-                className="rounded-lg shadow-md w-full h-auto"
-                height={1368}
-                width={2560}
-                src={usuarios}
-                alt="Captura de pantalla de la importación de usuarios"
-              />
+              <a href={usuarios.src} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+                <Image
+                  className="rounded-lg shadow-md w-full h-auto hover:opacity-90 transition-opacity"
+                  height={1368}
+                  width={2560}
+                  src={usuarios}
+                  alt="Captura de pantalla de la importación de usuarios"
+                />
+              </a>
             </div>
 
             {/* Feature 2 */}
@@ -102,13 +104,15 @@ export default function Home() {
                   Haz solicitudes al Web Service del SAT y descarga hasta 200,000 CFDI de manera masiva y eficiente.
                 </p>
               </div>
-              <Image
-                className="rounded-lg shadow-md w-full h-auto"
-                height={1368}
-                width={2560}
-                src={descargaMasiva}
-                alt="Captura de pantalla de la descarga masiva"
-              />
+              <a href={descargaMasiva.src} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+                <Image
+                  className="rounded-lg shadow-md w-full h-auto hover:opacity-90 transition-opacity"
+                  height={1368}
+                  width={2560}
+                  src={descargaMasiva}
+                  alt="Captura de pantalla de la descarga masiva"
+                />
+              </a>
             </div>
 
             {/* Feature 3 */}
@@ -124,13 +128,15 @@ export default function Home() {
                   Descarga tus XML desde el navegador interno del programa. Busca los CFDI del periodo que desees y presiona "Descargar".
                 </p>
               </div>
-              <Image
-                className="rounded-lg shadow-md w-full h-auto"
-                height={1368}
-                width={2560}
-                src={resumenDescarga}
-                alt="Captura de pantalla del resumen de descarga"
-              />
+              <a href={resumenDescarga.src} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+                <Image
+                  className="rounded-lg shadow-md w-full h-auto hover:opacity-90 transition-opacity"
+                  height={1368}
+                  width={2560}
+                  src={resumenDescarga}
+                  alt="Captura de pantalla del resumen de descarga"
+                />
+              </a>
             </div>
 
             {/* Feature 4 */}
@@ -146,13 +152,15 @@ export default function Home() {
                   Crea reportes detallados de tus XML: facturas de ingreso, egreso, pago y nóminas. Pronto se añadirá soporte para más complementos.
                 </p>
               </div>
-              <Image
-                className="rounded-lg shadow-md w-full h-auto"
-                height={1368}
-                width={2560}
-                src={reporte}
-                alt="Captura de pantalla de la creación de reportes"
-              />
+              <a href={reporte.src} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+                <Image
+                  className="rounded-lg shadow-md w-full h-auto hover:opacity-90 transition-opacity"
+                  height={1368}
+                  width={2560}
+                  src={reporte}
+                  alt="Captura de pantalla de la creación de reportes"
+                />
+              </a>
             </div>
 
             {/* Feature 5 */}
@@ -169,13 +177,15 @@ export default function Home() {
                   Solo selecciona la carpeta y presiona "Generar".
                 </p>
               </div>
-              <Image
-                className="rounded-lg shadow-md w-full h-auto"
-                height={1368}
-                width={2560}
-                src={representacionImpresa}
-                alt="Captura de pantalla de la Representacion Impresa"
-              />
+              <a href={representacionImpresa.src} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+                <Image
+                  className="rounded-lg shadow-md w-full h-auto hover:opacity-90 transition-opacity"
+                  height={1368}
+                  width={2560}
+                  src={representacionImpresa}
+                  alt="Captura de pantalla de la Representacion Impresa"
+                />
+              </a>
             </div>
           </div>
         </div>
