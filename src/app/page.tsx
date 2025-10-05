@@ -26,7 +26,7 @@ export default function Home() {
             <div className="flex gap-4 justify-center md:justify-start">
               <Link
                 href="https://drive.google.com/drive/folders/1lTDcWeaWyu2FGJ9QaUFUca9GgynNy63h?usp=sharing"
-                className="inline-flex items-center justify-center px-8 py-4 text-base md:text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+                className="inline-flex items-center justify-center px-8 py-4 text-base md:text-lg font-semibold text-white bg-linear-to-r from-blue-600 to-blue-700 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
                 rel="noopener noreferrer"
                 target="_blank">
                 Pruébalo Gratis
@@ -39,7 +39,7 @@ export default function Home() {
 
           <div className="flex justify-center md:justify-end">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
+              <div className="absolute inset-0 bg-linear-to-r from-blue-400 to-blue-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
               <Image
                 className="relative w-full max-w-lg h-auto drop-shadow-2xl"
                 height={500}
@@ -54,7 +54,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950 py-20">
+      <section className="bg-linear-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950 py-20">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-blue-600 dark:text-blue-400 font-bold text-4xl md:text-5xl mb-4">
