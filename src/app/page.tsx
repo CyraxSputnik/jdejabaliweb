@@ -125,7 +125,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">Navegador Integrado</h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Descarga tus XML desde el navegador interno del programa. Busca los CFDI del periodo que desees y presiona "Descargar".
+                  Descarga tus XML desde el navegador interno del programa. Busca los CFDI del periodo que desees y presiona &quot;Descargar&quot;.
                 </p>
               </div>
               <a href={resumenDescarga.src} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
@@ -173,8 +173,8 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">Representación Impresa</h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Crea la representación impresa de tus CFDI en PDF. Los XML se descargan en la carpeta "Descarga de CFDI" en tu escritorio.
-                  Solo selecciona la carpeta y presiona "Generar".
+                  Crea la representación impresa de tus CFDI en PDF. Los XML se descargan en la carpeta &quot;Descarga de CFDI&quot; en tu escritorio.
+                  Solo selecciona la carpeta y presiona &quot;Generar&quot;.
                 </p>
               </div>
               <a href={representacionImpresa.src} target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
