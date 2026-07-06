@@ -25,7 +25,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <Link
-                href="https://drive.google.com/drive/folders/1lTDcWeaWyu2FGJ9QaUFUca9GgynNy63h?usp=sharing"
+                href="https://jdejabali-downloads.jdejabali.com/JCFDI-Software-Versions/JCFDI%20Setup.zip"
                 className="inline-flex items-center justify-center px-8 py-4 text-base md:text-lg font-semibold text-white bg-linear-to-r from-blue-600 to-blue-700 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
                 rel="noopener noreferrer"
                 target="_blank">
