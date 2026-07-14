@@ -21,11 +21,11 @@ export default function Footer() {
                         <div className="flex flex-col items-center gap-2">
                             <a
                                 className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium transition-colors"
-                                href="mailto:josue.hernandez@jdejabali.com">
+                                href="mailto:jabalideoro@jdejabali.com">
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
-                                josue.hernandez@jdejabali.com
+                                jabalideoro@jdejabali.com
                             </a>
                         </div>
                     </div>
